@@ -1,0 +1,100 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+  <link rel="stylesheet" href="./assets/style.css"/>
+</head>
+
+<header>
+    <h1 class="text-primary"> Weather Dashboard</h1>
+</header>
+
+<body>
+
+    <h1>Search for a City:</h1>
+    <form id="search-form" class="form w-100">
+        <input id="search-input" class="form-input w-100" type="text" placeholder="Search a location">
+        <button  id="fetch-button" class="btn btn-info btn-block">Search</button>
+    </form>
+
+    <div class="container-main">
+        <div class="weather-main">
+            <h2>Results for <span id="result-text"></span></h2>
+            <div id="result-data"></div>
+                <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather-rep" class="weather-rep">
+                <div class="date" id="date-display">1/9/2023</div>
+                <div class="temp">77.00F</div>
+                <div class="wind">24 MPH</div>
+                <div class="humidity">29%</div>
+            </div>
+        </div>
+    </div>
+
+            <!-- <div class="city-container">
+                <div class="city" id="city">
+                    Chicago (1/8/2022)
+                </div>
+            </div >
+            <div class="current-weather-item" id="current-city-weather-item">
+            <img src="" alt="weather-rep" class="weather-rep">
+            </div>
+            <div class="current-weather-item" id="current-city-weather-item">
+                <div>Temp</div>
+                <div>75 F</div>
+            </div>
+            <div class="current-weather-item" id="current-city-weather-item">
+                <div>Wind</div>
+                <div>15 MPH</div>
+            </div>
+            <div class="current-weather-item" id="current-city-weather-item">
+                <div>Humidity</div>
+                <div>29%</div>
+            </div> -->
+
+        </div>
+    </div> 
+
+    <h2>Five Day Forecast:</h2>
+<div class="five-day-forecast" id="forecast"></div>
+    <div class="forecast-item">
+        <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather-rep" class="weather-rep">
+        <div class="date">1/9/2023</div>
+        <div class="temp">77.00F</div>
+        <div class="wind">24 MPH</div>
+        <div class="humidity">29%</div>
+    </div>
+    <div class="forecast-item">
+        <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather-rep" class="weather-rep">
+        <div class="date">1/9/2023</div>
+        <div class="temp">77.00F</div>
+        <div class="wind">24 MPH</div>
+        <div class="humidity">29%</div>
+    </div>
+    <div class="forecast-item">
+        <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather-rep" class="weather-rep">
+        <div class="date">1/9/2023</div>
+        <div class="temp">77.00F</div>
+        <div class="wind">24 MPH</div>
+        <div class="humidity">29%</div>
+    </div> 
+    <div class="forecast-item">
+        <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather-rep" class="weather-rep">
+        <div class="date">1/9/2023</div>
+        <div class="temp">77.00F</div>
+        <div class="wind">24 MPH</div>
+        <div class="humidity">29%</div>
+    </div>
+    <div class="forecast-item">
+        <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather-rep" class="weather-rep">
+        <div class="date">1/9/2023</div>
+        <div class="temp">77.00F</div>
+        <div class="wind">24 MPH</div>
+        <div class="humidity">29%</div>
+</div>
+</div>
+
+      <script src="./assets/script.js"></script>
+</body>
+</html>

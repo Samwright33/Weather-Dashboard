@@ -1,0 +1,50 @@
+* {
+    font-family:'Times New Roman', Times, serif;
+    box-sizing: border-box;
+} 
+
+header {
+    background-color: rgb(50, 1, 103);
+    border-radius: 5px;
+    border-style:double;
+    text-align: right;
+    color: white;
+}
+
+.container-main {
+    display:flex;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb(50, 1, 103);
+    border-width: 30%, 30%;
+    justify-content: center;
+    margin: 3px;
+    color: white;
+}
+
+.forecast-item {
+    background-color: rgb(117, 113, 126);
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    justify-content: space-between;
+    margin: 3px;
+    width:fit-content;
+    padding: 50px;
+    display: inline-block;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.result-text {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.current-weather-item {
+    display: flex;
+    flex-direction: column;
+}
